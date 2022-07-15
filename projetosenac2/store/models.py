@@ -3,7 +3,7 @@ from mailbox import NotEmptyError
 from tkinter import Y
 from django.db import models
 
-# Create your models here.
+# Create your models herer.
 class Departamento(models.Model):
     nome = models.CharField(max_length=20)
 
