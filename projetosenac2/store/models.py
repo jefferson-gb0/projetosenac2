@@ -25,7 +25,7 @@ class Categoria(models.Model):
 
 class Produto(models.Model):
     nome = models.CharField(max_length=50)
-    descricao = models.TextField(max_length=800)
+    descricao = models.TextField(max_length=8000)
     imagens = models.ImageField(upload_to="imagens/")
     estoque = models.IntegerField()
     lancamento = models.BooleanField()
